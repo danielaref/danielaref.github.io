@@ -11,7 +11,7 @@ body {
 .topnav a {
     position: sticky;
     float: left;
-    color: #fefefa;
+    color: #000000;
     text-align: center;
     padding: 13px 10px;
     text-decoration: none;
@@ -20,7 +20,7 @@ body {
 
 .topnav a:hover {
     background-color: #ff1b1b;
-    color: black;
+    color: #000000;
 }
 
 .topnav a.active {
@@ -29,7 +29,7 @@ body {
 }
 .button {
     border-radius: 4px;
-    background-color: #0d0d0d;
+    background-color: #fefefa;
     border: 12;
     color: #ff1b1b;
     text-align: center;
