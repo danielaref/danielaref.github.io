@@ -9,6 +9,7 @@ body {
 }
 
 .topnav a {
+    position: sticky;
     float: left;
     color: #fefefa;
     text-align: center;
@@ -42,7 +43,7 @@ body {
 .button span {
     cursor: pointer;
     display: inline-block;
-    position: relative;
+    position: absolute;
     transition: 0.5s;}
 
 .button span:after {
