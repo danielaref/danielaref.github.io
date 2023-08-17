@@ -24,4 +24,17 @@ ul {
   
   .active {
     background-color: #04AA6D;
+   Home
   }
+
+ 
+  <a href="fanpage.html" target="_blank">MFDOOM Fan Page</a>
+  <ul>
+      <div class="dropdown">
+          <span style="color:white;">My Media</span>
+          <div class="dropdown-content">
+          <a href="https://www.instagram.com/arshanaref2/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">Main Insta</a>
+          <a href="poopityscoop.com" target="_blank">Spam Insta</a>
+          <a href="callingat3am.com" target="_blank">Spotify</a>
+          </div>
+      </div>
