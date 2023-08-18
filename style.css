@@ -115,5 +115,10 @@ body{
 }
 
 .form {
-  left: 75%;
+  div.c {
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 120px;
+    border: 2px solid #121010;
 }
