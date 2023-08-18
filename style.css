@@ -98,7 +98,7 @@ body{
 .newTabs{
   font-family: monospace; 
   color: #fff;
-  align-self: center;
+  text-align: center;
   font-size: 3rem; 
   white-space: nowrap; 
   position:relative;
@@ -110,7 +110,7 @@ body{
   background-color: #04d085;
   border-radius: 15px;
   display: flex;
-  text-align: center;
+  align-self: center;
   margin-left: 40px;
   width: 35%; 
   
