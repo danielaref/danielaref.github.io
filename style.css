@@ -115,7 +115,7 @@ body{
 }
 
 .form {
-    text: #fff
+    text: #fff;
     position: absolute;
     right: 150px;
     width: 200px;
