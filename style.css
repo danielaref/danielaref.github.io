@@ -112,6 +112,7 @@ body{
   margin-left: 20px; 
   padding: 1px 1px 1px; 
   width: 25%; 
+  cursor: pointer;
 }
 
 .form {
