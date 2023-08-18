@@ -94,14 +94,7 @@ body{
   border-radius: 12px;
 }
 
-.newTabs {
- 
-  align-self: center;
-  font-size: 2rem; 
-  white-space: nowrap; 
-  position: relative;
-  left: 5%;
-}
+
 
 .tab { 
   font-family: monospace; 
@@ -114,6 +107,11 @@ body{
   padding: 1px 1px 1px; 
   width: 25%; 
   cursor: pointer;
+  align-self: center;
+  font-size: 2rem; 
+  white-space: nowrap; 
+  position: relative;
+  left: 8%;
 }
 .tab:hover{
   background-color: #fc0505;
@@ -124,7 +122,5 @@ body{
 .form {
     color: #fff;
     position: absolute;
-    right: 150px;
-    width: 200px;
-    height: 120px;
+    left: 5%;
 }
