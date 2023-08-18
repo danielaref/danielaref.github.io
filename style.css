@@ -95,8 +95,7 @@ body{
 }
 
 .newTabs {
-  font-family: monospace; 
-  color: #fff;
+ 
   align-self: center;
   font-size: 2rem; 
   white-space: nowrap; 
@@ -104,7 +103,9 @@ body{
   left: 5%;
 }
 
-.tab {
+.tab { 
+  font-family: monospace; 
+  color: #fff;
   float: left;
   background-color: #04d085;
   border-radius: 10px; 
