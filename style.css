@@ -118,7 +118,7 @@ body{
   border-color: #04AA6D;
   background-color: #fc0505;
   transition-duration: 0.5s ;
-  border-radius:1%;
+  border-radius:10px;
 }
 
 .form {
