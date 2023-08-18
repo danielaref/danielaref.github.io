@@ -114,6 +114,11 @@ body{
   width: 25%; 
   cursor: pointer;
 }
+.tab:hover{
+  border-color: #04AA6D;
+  background-color: #fc0505;
+  transition-duration: 0.5s ;
+}
 
 .form {
     color: #fff;
