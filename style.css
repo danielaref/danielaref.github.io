@@ -234,6 +234,7 @@ border-radius:10px;
   color: #fff;
   position: absolute;
   left: 5%;
+  font-family: monospace;
 }
 
 .icon-link {
