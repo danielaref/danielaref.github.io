@@ -9,14 +9,23 @@
         <h1>Please Fill Out This Form</h1>
     </head>
     <body>
-        <form action="quiz" class="form">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="YoN">Do You Like My Music?:</label><br>
-        <input type="text" id="YoN" name="YoN" value="Yes Of Course Arshan, Your Music Is The Best Please Put Me On!!"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+       
+       
+        <div id="quiz-wrapper">
 
+            
+            <form action="quiz" class="form">
+                <label>Do You Like My Music?:</label><br>
+                <input type="radio" id="Yes" name="Answer" value="YES">
+                <label for="Yes">Yes</label><br>
+                <input type="radio" id="No" name="Answer" value="NO">
+                <label for="No">No</label><br>
+                <input type="radio" id="Ofc" name="fav_language" value="OFC">
+                <label for="Ofc">="Yes Of Course Arshan, Your Music Is The Best Please Put Me On!!"></label>
+            </form> 
+        </div>  
+    </form>
+    <script src="script.js"></script>
     </body>
 
 </html>
