@@ -84,7 +84,7 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 96.7%;
+  width: 72.5%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -96,7 +96,7 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 72.5%;
+  width: 75%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -104,6 +104,7 @@ top: 5%;
 }
 
 .track-image {
+  border-radius: 15px;
   border: 2px solid #fff;
   padding: 1%;
   width: 10%;
@@ -117,17 +118,16 @@ top: 5%;
 
 
 .home-image2 {
-  width: 105%;
+  width: 100%;
   height:auto;
   position: relative;
-  right: 80%;
+  right: 75%;
   border-radius: 10%;
 }
 .home-image2-kanye{
-  width: 250%;
-  height:130%;
+  width: 120%;
   position: relative;
-  right: 345%;
+  right: 149%;
   border-radius: 10%;
 }
 .track-kanye, .track-TSS {
@@ -136,7 +136,7 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 63%;
+  width: 69%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -159,7 +159,7 @@ top: 5%;
   width: 300px;
   position: relative;
   border-radius: 10%;
-  left:13.5%
+  right: 85%;
 }
 
 
