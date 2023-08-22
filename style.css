@@ -25,8 +25,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
-
+  background-color: #098A5A;
   width: 100%;
 }
 h1{
@@ -184,7 +183,7 @@ white-space: nowrap;
 font-family: monospace; 
 color: #fff;
 float: left;
-background-color: #11ba60;
+background-color: #11e597;
 border-radius: 10px; 
 display: flex;
 margin-left: 20px; 
@@ -199,6 +198,7 @@ white-space: nowrap;
 position: relative;
 left: 8%;
 align-items: center;
+transition: all 0.3s ease-in-out;
 }
 .tab3{
   width: 25%;
@@ -221,6 +221,7 @@ align-items: center;
   white-space: nowrap; 
   top:95%;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .tab2 a {
@@ -233,10 +234,11 @@ align-items: center;
   padding: 0;
 }
 
-.tab:hover{
-background-color: #fc0505;
+.tab:hover, .tab2:hover, .tab3:hover{
+background-color: #FDA707;
 transition-duration: 0.5s ;
 border-radius:10px;
+transform: scale(1.1);
 }
 
 .form {
