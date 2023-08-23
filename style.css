@@ -17,7 +17,7 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none
+  text-decoration: none;
 }
 
 li a:hover:not(.active) {
@@ -53,7 +53,6 @@ background-color: #111;
 }
 
 .home-image{  
-
 position:relative; 
 top: 80px;
 width: 600px;
@@ -84,7 +83,7 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 96.7%;
+  width: 80%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -96,7 +95,7 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 72.5%;
+  width: 82.5%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -120,14 +119,15 @@ top: 5%;
   width: 105%;
   height:auto;
   position: relative;
-  right: 80%;
+  margin-right: 40%;
+  margin-left:-45%;
   border-radius: 10%;
 }
 .home-image2-kanye{
-  width: 250%;
+  width: 70%;
   height:130%;
   position: relative;
-  right: 345%;
+  left: -10%;
   border-radius: 10%;
 }
 .track-kanye, .track-TSS {
@@ -136,30 +136,19 @@ top: 5%;
   display: flex;
   align-items: center;
   margin-bottom: 1%;
-  width: 63%;
+  width: 90%;
+  height:auto;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
   white-space: nowrap;
 }
 
-.track-TSS {
-  width: 65%;
-}
-
-.home-image2-TSS{
-  width: 200%;
-  height:130%;
-  position: relative;
-  right: 220%;
-  border-radius: 10%;
-}
-
 .home-image2-mfdoom {
   width: 300px;
   position: relative;
   border-radius: 10%;
-  left:13.5%
+  right:55%
 }
 
 
@@ -275,6 +264,15 @@ transform: scale(1.1);
 }
 .h1-right2{
   margin-right: 5%
+}
+
+.h1-right3{
+  margin-right: 13%
+}
+
+
+.h1-right4{
+  margin-right: 10%
 }
 
 h1, h2, h3, h4, h5, h6, p{
