@@ -1,3 +1,4 @@
+
 ul {
   position: fixed;
   list-style-type: none;
@@ -75,7 +76,7 @@ top: 5%;
   position: relative;
   top: 0; 
   left: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 7%;
 }
 .trackmfdoom {
   border: 2px solid #fff;
@@ -94,8 +95,20 @@ top: 5%;
   border-radius: 15px;
   display: flex;
   align-items: center;
-  margin-bottom: 1%;
-  width: 82.5%;
+  margin-bottom: 2%;
+  width: 150%;
+  font-family: monospace;
+  color: #fff;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+.track-k {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  width: 82%;
   font-family: monospace;
   color: #fff;
   font-size: 2rem;
@@ -130,7 +143,7 @@ top: 5%;
   left: -10%;
   border-radius: 10%;
 }
-.track-kanye, .track-TSS {
+.track-kanye {
   border: 2px solid #fff;
   border-radius: 15px;
   display: flex;
@@ -228,9 +241,16 @@ transform: scale(1.1);
 }
 .form {
   color: #fff;
-  position: absolute;
+  position: relative;
   left: 5%;
 }
+.form2 {
+  color: #fff;
+  position: relative;
+  left: 5%;
+  bottom: 2%
+}
+
 
 .icon-link {
   display: inline-block;
