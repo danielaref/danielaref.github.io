@@ -26,12 +26,13 @@ function display(answer) {
     let song10 = 0
 
     if(answer.question1 === "Calm"){
+        song5++;
         song2++;
         song3++;
-        song5++;
-        song7++;
+        
     }
     else if(answer.question1 === "Energetic"){
+        song7++;
         song8++;
         song9++;
     }
@@ -40,7 +41,7 @@ function display(answer) {
         song4++;        
         song6++;
         song10++;
-    if(answer.question2 === "Spanish"){
+    }if(answer.question2 === "Spanish"){
         song3++;
         song4++;
         song8++;
@@ -64,10 +65,10 @@ function display(answer) {
         song9++;
         song10++;
     }
-    }
+    
     const highest = Math.max(song1, song2, song3, song4, song5, song6, song7, song8, song9, song10);
     if(highest===song1){
-        result.src = "https://open.spotify.com/embed/track/6SInUXYcKLtmODUk8W8UCW?utm_source=generator&theme=0" ;
+        result.src = "https://open.spotify.com/embed/track/6SInUXYcKLtmODUk8W8UCW?utm_source=generator&theme=0";
     }
     else if(highest===song2){
         result.src = "https://open.spotify.com/embed/track/760d5fC41dkJL9WHPIPhDD?utm_source=generator&theme=0";

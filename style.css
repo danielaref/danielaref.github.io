@@ -239,11 +239,6 @@ transition-duration: 0.5s ;
 border-radius:10px; 
 transform: scale(1.1);
 }
-.form {
-  color: #fff;
-  position: relative;
-  left: 5%;
-}
 .form2 {
   color: #fff;
   position: relative;
@@ -298,3 +293,5 @@ transform: scale(1.1);
 h1, h2, h3, h4, h5, h6, p{
   color:#fff;
 }
+
+
